@@ -1,5 +1,10 @@
 # Configuration file for the Sphinx documentation builder.
 
+# -- custom sphinx visuals
+
+def setup(app):
+    app.add_css_file('design.css')
+
 # -- Project information
 
 project = 'BaSyx Wiki'
@@ -27,6 +32,7 @@ intersphinx_mapping = {
 intersphinx_disabled_domains = ['std']
 
 templates_path = ['_templates']
+html_static_path = ['_static']
 
 # -- Options for HTML output
 
