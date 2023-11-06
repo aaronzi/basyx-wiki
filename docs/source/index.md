@@ -8,6 +8,11 @@ This Eclipse BaSyx platform furthermore will provide reference application scena
 Eclipse BaSyx is actively supported by the BaSys 4.0 ([Homepage, in German](https://www.basys40.de/)) research project, which is funded by the German Ministry for Education and Research (BMBF, grant no. 01IS16022).
 BaSys 4.0 researches and specifies key concepts of Industrie 4.0, participates in standardization activities, and integrates existing standards and technologies into an Industrie 4.0 middleware.
 
+```{margin}
+![About BaSyx and Industrie 4.0](./images/450px-Basyx.video.png)
+[About BaSyx and Industrie 4.0 (video)](https://www.youtube.com/watch?v=kx2F5E5foLU)
+```
+
 The Eclipse BaSyx middleware implements main Industrie 4.0 concepts and provides the necessary software components to implement numerous Industrie 4.0 applications:
 
 - End-to-end digitisation of the production (the shopfloor)
