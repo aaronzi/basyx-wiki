@@ -5,3 +5,12 @@ build:
     python: "3.10"
     # You can also specify other tool versions:
     # nodejs: "16"
+
+# Build documentation in the docs/ directory with Sphinx
+sphinx:
+   configuration: docs/conf.py
+
+# Dependencies required to build your docs
+python:
+   install:
+   - requirements: docs/requirements.txt
