@@ -3,8 +3,8 @@
 # -- Project information
 
 project = 'BaSyx Wiki'
-copyright = '2023, Eclipse BaSyx'
-author = 'Eclipse BaSyx'
+copyright = '2023, Eclipse BaSyx™'
+author = 'Eclipse BaSyx™'
 
 release = '0.1'
 version = '0.1.0'
@@ -37,7 +37,9 @@ html_theme_options = {
     "use_repository_button": True,
 }
 
-html_logo = "./logo/basyx.png"
+html_logo = "./logo/basyx_logo.png"
+
+html_title = "Eclipse BaSyx™"
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
