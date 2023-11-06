@@ -30,7 +30,14 @@ templates_path = ['_templates']
 
 # -- Options for HTML output
 
-html_theme = 'sphinx_rtd_theme'
+html_theme = 'sphinx_book_theme'
+
+html_theme_options = {
+    "repository_url": "https://github.com/aaronzi/basyx-wiki",
+    "use_repository_button": True,
+}
+
+html_logo = "./logo/basyx.png"
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
