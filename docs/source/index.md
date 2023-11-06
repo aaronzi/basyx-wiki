@@ -1,1 +1,30 @@
-# BaSyx Wiki
+# BaSyx
+
+Eclipse BaSyx is the open source platform for next generation automation.
+Our mission is to provide a free software platform that enables all interested parties, large and small industries, research institutes, academia, and interested persons, to participate and to shape the fourth industrial revolution.
+We believe that the availability of a free reference technology platform is a key success factor for the Industrie 4.0.
+Eclipse BaSyx therefore provides common and re-useable Industrie 4.0 components and an SDK that supports the development of new Industrie 4.0 software components to enable the rapid development of Industrie 4.0 solutions.
+This Eclipse BaSyx platform furthermore will provide reference application scenarios for common Industrie 4.0 challenges.
+Eclipse BaSyx is actively supported by the BaSys 4.0 ([Homepage, in German](https://www.basys40.de/)) research project, which is funded by the German Ministry for Education and Research (BMBF, grant no. 01IS16022).
+BaSys 4.0 researches and specifies key concepts of Industrie 4.0, participates in standardization activities, and integrates existing standards and technologies into an Industrie 4.0 middleware.
+
+The Eclipse BaSyx middleware implements main Industrie 4.0 concepts and provides the necessary software components to implement numerous Industrie 4.0 applications:
+
+- End-to-end digitisation of the production (the shopfloor)
+- End-to-end connectivity between shopfloor and IT
+- Peer-to-peer communication between devices and the IT
+- Digital process models, value streams, and product tracking
+- Changeable production processes up to lot size one production
+- [Digital twins](https://www.iese.fraunhofer.de/en/services/digital-twin.html) for processes, products, devices, and more
+- Big data analysis of production processes
+- Pre-configured containers for Industrie 4.0 applications, e.g. predictive maintenance, in-process analysis, and dashboards
+- Automated tracing and documentation of production processes
+
+Application examples that document the application of Eclipse BaSyx are provided in section [BaSyx application scenarios](https://wiki.eclipse.org/BaSyx_/_Scenarios).
+
+## BaSyx Middleware Documentation
+
+The documentation of the Eclipse BaSyx middleware is split into the following sub sections:
+
+* Overview
+  * [Industrie 4.0 introduction](./content/overview/industrie4.0_intro.md)
