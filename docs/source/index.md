@@ -1,4 +1,4 @@
-# BaSyx
+# Eclipse BaSyx™
 
 Eclipse BaSyx is the open source platform for next generation automation.
 Our mission is to provide a free software platform that enables all interested parties, large and small industries, research institutes, academia, and interested persons, to participate and to shape the fourth industrial revolution.

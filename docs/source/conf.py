@@ -36,11 +36,33 @@ html_theme_options = {
     "repository_url": "https://github.com/aaronzi/basyx-wiki",
     "use_repository_button": True,
     "use_sidenodes": True,
+
+    "icon_links": [
+        {
+            "name": "Eclipse BaSyx™",
+            "url": "https://github.com/eclipse-basyx",
+            "icon": "_static/basyx_icon.png",
+            "type": "local",
+        },
+        {
+            "name": "GitHub",
+            "url": "https://github.com/eclipse-basyx",
+            "icon": "fa-brands fa-github",
+        },
+        {
+            "name": "Eclipse BaSyx™",
+            "url": "https://github.com/eclipse-basyx",
+            "icon": "https://img.shields.io/readthedocs/basyx-wiki",
+            "type": "url",
+        },
+    ],
 }
 
-html_logo = "./logo/basyx_logo.png"
+html_logo = "./_static/basyx_logo.png"
 
 html_title = "Eclipse BaSyx™"
+
+html_favicon = "_static/basyx_icon.ico"
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
