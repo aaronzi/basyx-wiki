@@ -66,4 +66,5 @@ This section contains the user documentation of the Eclipse BaSyx middleware.
 :maxdepth: 2
 
 content/documentation/user_tutorials
+content/documentation/using_basyx
 ```
