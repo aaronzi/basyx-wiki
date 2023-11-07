@@ -1,4 +1,4 @@
-# Eclipse BaSyx™
+# BaSyx Wiki
 
 Eclipse BaSyx is the open source platform for next generation automation.
 Our mission is to provide a free software platform that enables all interested parties, large and small industries, research institutes, academia, and interested persons, to participate and to shape the fourth industrial revolution.
@@ -46,3 +46,25 @@ The documentation of the Eclipse BaSyx middleware is split into the following su
 
 * Overview
   * [Industrie 4.0 introduction](./content/overview/industrie4.0_intro.md)
+
+# Overview
+
+This section will give you a brief overview of Industrie 4.0 and the Eclipse BaSyx middleware.
+
+```{toctree}
+:maxdepth: 1
+:caption: Overview
+
+content/overview/industrie4.0_intro
+```
+
+# User Documentaion
+
+This section contains the user documentation of the Eclipse BaSyx middleware.
+
+```{toctree}
+:caption: User Documentation
+:maxdepth: 2
+
+content/documentation/user_tutorials
+```

@@ -55,6 +55,12 @@ html_theme_options = {
             "icon": "https://img.shields.io/readthedocs/basyx-wiki",
             "type": "url",
         },
+        {
+            "name": "Eclipse BaSyx™",
+            "url": "https://github.com/eclipse-basyx",
+            "icon": "https://img.shields.io/docker/pulls/eclipsebasyx/aas-server",
+            "type": "url",
+        },
     ],
 }
 
