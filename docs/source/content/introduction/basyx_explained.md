@@ -1,4 +1,4 @@
-# BaSyx explained in 10 minutes
+# BaSyx explained
 
 ## About BaSyx and changeable production
 

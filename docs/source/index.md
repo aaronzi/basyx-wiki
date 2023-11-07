@@ -51,11 +51,13 @@ It also contains a quick start guide that will help you to get started with Ecli
 
 ```{toctree}
 :maxdepth: 1
-:caption: Overview
+:caption: Introduction
 
 content/introduction/industrie4.0_intro
 content/introduction/why_basyx
 content/introduction/basyx_explained
+content/introduction/quickstart
+```
 ```
 
 ### User Documentaion
