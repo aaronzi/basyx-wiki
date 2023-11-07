@@ -53,6 +53,8 @@ This section will give you a brief overview of Industrie 4.0 and the Eclipse BaS
 :caption: Overview
 
 content/overview/industrie4.0_intro
+content/overview/why_basyx
+
 ```
 
 ### User Documentaion
