@@ -56,13 +56,13 @@ html_theme_options = {
         },
         {
             "name": "BaSyx Documentation",
-            "url": "https://github.com/eclipse-basyx",
+            "url": "https://basyx-wiki.readthedocs.io/",
             "icon": "https://img.shields.io/readthedocs/basyx-wiki",
             "type": "url",
         },
         {
             "name": "Docker",
-            "url": "https://github.com/eclipse-basyx",
+            "url": "https://hub.docker.com/u/eclipsebasyx",
             "icon": "https://img.shields.io/docker/pulls/eclipsebasyx/aas-server",
             "type": "url",
         },
