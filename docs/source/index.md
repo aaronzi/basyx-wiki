@@ -44,10 +44,7 @@ Application examples that document the application of Eclipse BaSyx are provided
 
 The documentation of the Eclipse BaSyx middleware is split into the following sub sections:
 
-* Overview
-  * [Industrie 4.0 introduction](./content/overview/industrie4.0_intro.md)
-
-# Overview
+### Overview
 
 This section will give you a brief overview of Industrie 4.0 and the Eclipse BaSyx middleware.
 
@@ -58,7 +55,7 @@ This section will give you a brief overview of Industrie 4.0 and the Eclipse BaS
 content/overview/industrie4.0_intro
 ```
 
-# User Documentaion
+### User Documentaion
 
 This section contains the user documentation of the Eclipse BaSyx middleware.
 
