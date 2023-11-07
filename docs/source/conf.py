@@ -50,15 +50,15 @@ html_theme_options = {
             "icon": "fa-brands fa-github",
         },
         {
+            "name": "BaSyx Dev Mail",
+            "url": "mailto:basyx-dev@eclipse.org",
+            "icon": "fa fa-envelope",
+        },
+        {
             "name": "BaSyx Documentation",
             "url": "https://github.com/eclipse-basyx",
             "icon": "https://img.shields.io/readthedocs/basyx-wiki",
             "type": "url",
-        },
-        {
-            "name": "BaSyx Dev Mail",
-            "url": "mailto:basyx-dev@eclipse.org",
-            "icon": "fa fa-envelope",
         },
         {
             "name": "Docker",

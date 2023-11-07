@@ -4,7 +4,7 @@ Eclipse BaSyx is the official open source reference implementation of the BaSys 
 
 ## Why using Eclipse Basyx as Industrie 4.0 middleware?
 
-```{figure} ./images/600px-BaSyx.overview.png
+```{figure} ./images/600px-Basyx.overview.png
 ---
 figclass: margin
 alt: BaSyx overview
