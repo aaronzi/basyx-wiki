@@ -1,6 +1,6 @@
 # Why use BaSyx?
 
-Eclipse BaSyx is the official open source reference implementation of the BaSys 4 middleware. It is provided by the Eclipse Foundation under the Eclipse Public License 2.0 (EPL 2.0). Thus it is freely usable and may also be used as part of commercial and closed-source applications. This section introduces central concepts of Eclipse-BaSyx.
+Eclipse BaSyx is the official open source reference implementation of the BaSys 4 middleware. It is provided by the Eclipse Foundation under the Massachusetts Institute of Technology License (MIT). Thus it is freely usable and may also be used as part of commercial and closed-source applications. This section introduces central concepts of Eclipse-BaSyx.
 
 ## Why using Eclipse Basyx as Industrie 4.0 middleware?
 
