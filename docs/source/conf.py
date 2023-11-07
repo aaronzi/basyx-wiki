@@ -39,8 +39,8 @@ html_theme_options = {
 
     "icon_links": [
         {
-            "name": "Eclipse BaSyx™",
-            "url": "https://github.com/eclipse-basyx",
+            "name": "Eclipse BaSyx Open Hour",
+            "url": "https://www.iese.fraunhofer.de/en/customers_industries/digitalisierung-produktion/industrie40/basyx_open_hour.html",
             "icon": "_static/basyx_icon.png",
             "type": "local",
         },
@@ -50,13 +50,19 @@ html_theme_options = {
             "icon": "fa-brands fa-github",
         },
         {
-            "name": "Eclipse BaSyx™",
+            "name": "BaSyx Documentation",
             "url": "https://github.com/eclipse-basyx",
             "icon": "https://img.shields.io/readthedocs/basyx-wiki",
             "type": "url",
         },
         {
-            "name": "Eclipse BaSyx™",
+            "Name": "BaSyx Dev Mail",
+            "url": "mailto:basyx-dev@eclipse.org",
+            "icon": "fa fa-envelope",
+            "type": "local",
+        },
+        {
+            "name": "Docker",
             "url": "https://github.com/eclipse-basyx",
             "icon": "https://img.shields.io/docker/pulls/eclipsebasyx/aas-server",
             "type": "url",
