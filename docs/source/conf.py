@@ -56,10 +56,9 @@ html_theme_options = {
             "type": "url",
         },
         {
-            "Name": "BaSyx Dev Mail",
+            "name": "BaSyx Dev Mail",
             "url": "mailto:basyx-dev@eclipse.org",
             "icon": "fa fa-envelope",
-            "type": "local",
         },
         {
             "name": "Docker",
