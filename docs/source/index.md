@@ -54,8 +54,8 @@ It also contains a quick start guide that will help you to get started with Ecli
 :caption: Overview
 
 content/introduction/industrie4.0_intro
-content/overview/why_basyx
-introduction
+content/introduction/why_basyx
+content/introduction/basyx_explained
 ```
 
 ### User Documentaion
