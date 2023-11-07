@@ -68,7 +68,7 @@ http://localhost:8081/shells/aHR0cHM6Ly9hY3BsdC5vcmcvVGVzdF9Bc3NldEFkbWluaXN0cmF
 
 ```{figure} ./images/register_aas.png
 ---
-width: 60%
+width: 100%
 alt: Register AAS
 name: register_aas
 ---
