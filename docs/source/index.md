@@ -58,7 +58,6 @@ content/introduction/why_basyx
 content/introduction/basyx_explained
 content/introduction/quickstart
 ```
-```
 
 ### User Documentaion
 
