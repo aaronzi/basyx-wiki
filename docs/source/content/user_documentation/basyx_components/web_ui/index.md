@@ -57,8 +57,6 @@ You can find a complete example on how to setup a BaSyx environment with the AAS
 
 ## Interacting with AAS
 
-### AAS List Sidebar
-
 ```{figure} ./images/ui_sidebar.png
 ---
 figclass: margin
@@ -67,6 +65,8 @@ name: ui_sidebar
 ---
 AAS List Sidebar
 ```
+
+### AAS List Sidebar
 
 The AAS List shows all Asset Administration Shells that are registered. The list can be filtered by entering a search term in the search bar.
 
@@ -129,9 +129,43 @@ The implemented SubmodelElements follow the specification for the AAS in Metamod
 - RelationshipElement
 - AnnotatedRelationshipElement
 
+```{note}
+The Capability and Event SubmodelElement types are not yet implemented.
+```
+
 ### Visualization Panel
 
+The Visualization page shows the Submodel/SubmodelElement in a graphical representation. There are different criteria which enable a specific visualization for a Submodel/SubmodelElement.
 
+1. The AAS Web UI checks for the presence of a SemanticId in the Submodel/SubmodelElement. If a SemanticId is present, the AAS Web UI will try to find a visualization for the SemanticId from the List of Submodel/SubmodelElement Plugins.
+
+```{figure} ./images/ui_visualization.png
+---
+width: 60%
+alt: Visualization Panel
+name: ui_visualization
+---
+```
+
+2. The File and Blob SubmodelElements have a special visualization. If the SubmodelElement contains an image or a PDF, the AAS Web UI displays the image/PDF in the visualization page.
+
+```{figure} ./images/image_preview.png
+---
+width: 80%
+alt: Image Preview
+name: image_preview
+---
+Image Preview in the Visualization Panel
+```
+
+```{figure} ./images/pdf_preview.png
+---
+width: 80%
+alt: PDF Preview
+name: pdf_preview
+---
+PDF Preview in the Visualization Panel
+```
 
 ## Features
 
