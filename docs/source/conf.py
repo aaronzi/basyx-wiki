@@ -70,11 +70,11 @@ html_theme_options = {
     ],
 }
 
-html_logo = "./_static/favicon-32x32.png"
+html_logo = "_static/basyx_logo.png"
 
 html_title = "Eclipse BaSyx™"
 
-html_favicon = "./_static/favicon-32x32.ico"
+html_favicon = "_static/favicon-32x32.ico"
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
