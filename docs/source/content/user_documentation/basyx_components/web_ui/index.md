@@ -2,7 +2,7 @@
 
 The AAS Web UI is a vue.js 3 based web application and can be used to visualize and interact with Asset Administration Shells. It is intended to work in conjunction with the BaSyx Registry and the BaSyx AAS Environment.
 
-```{figure} ./images/1800px-AAS_Web_UI.png
+```{figure} ./images/aas_web_ui.png
 ---
 width: 100%
 alt: AAS Web UI
@@ -56,6 +56,63 @@ name: connect_basyx
 You can find a complete example on how to setup a BaSyx environment with the AAS Web UI, Registry and AAS Environment in the [Quick Start](../../../introduction/quickstart) section.
 
 ## Interacting with AAS
+
+### AAS List Sidebar
+
+````{sidebar}
+![](./images/ui_sidebar.png)
+````
+
+The AAS List shows all Asset Administration Shells that are registered. The list can be filtered by entering a search term in the search bar.
+
+There is also an option to show an information window for each Asset Administration Shell by clicking on the info icon. The information window shows the AAS ID, the AAS Name, the AAS Description and information regarding the asset like the global asset ID and a thumbnail.
+
+In addition, the AAS can be removed from the registry by clicking on the **delete/close** icon. Clicking the **download** icon will download the AAS as an AASX file.
+
+### AAS Treeview
+
+````{sidebar}
+![](./images/ui_treeview.png)
+````
+
+The AAS Treeview shows the Asset Administration Shell in a tree structure. The tree can be expanded by clicking on the expand icon on the left side of each Submodel/SubmodelElementCollection. Clicking directly on a Submodel/SubmodelElement will show the Submodel/SubmodelElement in the Element Details Page further to the right.
+
+If a SubmodelElement is selected you are able to copy its path to the clipboard by clicking on the **copy** icon on the right side of the SubmodelElement.
+
+### Element Details
+
+````{sidebar}
+![](./images/element_details.png)
+````
+
+The Element Details Page shows the content of the selected SubmodelElement. This includes the following information:
+
+- idShort
+- modelType
+- semanticId
+- description
+- value
+- dataSpecificationContent (fetched from the Concept Description Repository)
+
+```{note}
+:class: margin
+The Capability and Event SubmodelElement types are not yet implemented.
+```
+
+The implemented SubmodelElements follow the specification for the AAS in Metamodel Version 3. Currently, the following SubmodelElements have their own visualization:
+
+- SubmodelElementCollection
+- SubmodelElementList
+- Property
+- MultiLanguageProperty
+- File
+- Blob
+- Operation
+- ReferenceElement
+- Range
+- Entity
+- RelationshipElement
+- AnnotatedRelationshipElement
 
 ## Features
 
