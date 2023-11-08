@@ -59,9 +59,14 @@ You can find a complete example on how to setup a BaSyx environment with the AAS
 
 ### AAS List Sidebar
 
-````{sidebar} AAS List Sidebar
-![](./images/ui_sidebar.png)
-````
+```{figure} ./images/ui_sidebar.png
+---
+figclass: margin
+alt: AAS List Sidebar
+name: ui_sidebar
+---
+AAS List Sidebar
+```
 
 The AAS List shows all Asset Administration Shells that are registered. The list can be filtered by entering a search term in the search bar.
 
@@ -71,9 +76,14 @@ In addition, the AAS can be removed from the registry by clicking on the **delet
 
 ### AAS Treeview
 
-````{sidebar} AAS Treeview
-![](./images/ui_treeview.png)
-````
+```{figure} ./images/ui_treeview.png
+---
+figclass: margin
+alt: AAS Treeview
+name: ui_treeview
+---
+AAS Treeview
+```
 
 The AAS Treeview shows the Asset Administration Shell in a tree structure. The tree can be expanded by clicking on the expand icon on the left side of each Submodel/SubmodelElementCollection. Clicking directly on a Submodel/SubmodelElement will show the Submodel/SubmodelElement in the Element Details Page further to the right.
 
@@ -81,9 +91,14 @@ If a SubmodelElement is selected you are able to copy its path to the clipboard 
 
 ### Element Details
 
-````{sidebar} Element Details
-![](./images/element_details.png)
-````
+```{figure} ./images/element_details.png
+---
+figclass: margin
+alt: Element Details
+name: element_details
+---
+Element Details
+```
 
 The Element Details Page shows the content of the selected SubmodelElement. This includes the following information:
 
