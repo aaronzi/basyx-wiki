@@ -74,7 +74,7 @@ html_logo = "./_static/favicon-32x32.png"
 
 html_title = "Eclipse BaSyx™"
 
-html_favicon = "_static/basyx_icon.ico"
+html_favicon = "./_static/favicon-32x32.ico"
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
