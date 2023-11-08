@@ -12,7 +12,7 @@ name: web_ui
 
 ## Download
 
-:::{note}
+```{note}
 :class: margin
 The AAS Web UI is now only compatible with the components of BaSyx V2 and the Asset Administration Shell V3.
 If you still wish to use BaSyx V1, please use the following release of the UI:
@@ -20,7 +20,7 @@ If you still wish to use BaSyx V1, please use the following release of the UI:
 ```bash
 docker pull eclipsebasyx/aas-gui:v230703
 ```
-:::
+```
 
 The AAS Web UI can be downloaded from [Docker Hub](https://hub.docker.com/r/eclipsebasyx/aas-gui) as off-the-shelf component.
 Yuo can pull it by executing the following command:
@@ -31,11 +31,11 @@ docker pull eclipsebasyx/aas-gui
 
 ## Quick Start
 
-:::{note}
+```{note}
 :class: margin
 Docker must be installed on your system to run the AAS Web UI.
 Dockers official documentation provides a [detailed installation guide](https://docs.docker.com/get-docker/) for Windows, Mac and Linux.
-:::
+```
 
 The container for the AAS Web UI can be started by executing the following command:
 
@@ -57,7 +57,7 @@ name: connect_basyx
 
 ## Introductory Example
 
-You can find a complete example on how to setup a BaSyx environment with the AAS Web UI, Registry and AAS Environment in the [Quick Start](quickstart) section.
+You can find a complete example on how to setup a BaSyx environment with the AAS Web UI, Registry and AAS Environment in the [Quick Start](../../../introduction/quickstart) section.
 
 ## Interacting with AAS
 
