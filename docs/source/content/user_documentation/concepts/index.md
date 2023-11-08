@@ -1,4 +1,4 @@
-# BaSyx Concepts
+# Concepts
 
 ## Digital Twins
 
