@@ -1,5 +1,11 @@
 # AAS Web UI
 
+![Docker Pulls](https://img.shields.io/docker/pulls/eclipsebasyx/aas-gui)
+![Docker Image Size (latest by date)](https://img.shields.io/docker/image-size/eclipsebasyx/aas-gui)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/eclipse-basyx/basyx-applications)
+![Libraries.io dependency status for GitHub repo](https://img.shields.io/librariesio/github/eclipse-basyx/basyx-applications)
+![GitHub](https://img.shields.io/github/license/eclipse-basyx/basyx-applications)
+
 The AAS Web UI is a vue.js 3 based web application and can be used to visualize and interact with Asset Administration Shells. It is intended to work in conjunction with the BaSyx Registry and the BaSyx AAS Environment.
 
 ```{figure} ./images/aas_web_ui.png
@@ -164,5 +170,9 @@ PDF Preview in the Visualization Panel
 
 ## Features
 
-### [Status Checks and Error Handling](./features/statuscheck)
+```{toctree}
+:caption: Features
+:maxdepth: 1
 
+features/statuscheck
+```
