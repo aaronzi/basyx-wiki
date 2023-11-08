@@ -171,8 +171,19 @@ PDF Preview in the Visualization Panel
 ## Features
 
 ```{toctree}
-:caption: Features
 :maxdepth: 1
 
 features/statuscheck
 ```
+
+## Compatibility to BaSyx V1
+
+If you still want to use the AAS Web UI with BaSyx V1, you can use an older version from Docker Hub.
+
+```bash
+docker pull eclipsebasyx/aas-gui:v230703
+```
+
+If you need to make changes to the AAS Web UI, you can also build the AAS Web UI from source. The source code for the AAS Web UI which is compatible with BaSyx V1 can be found here:
+
+https://github.com/eclipse-basyx/basyx-applications/tree/102e1c3cb7866c65d8c6e4f9211ba1c0db12f58d

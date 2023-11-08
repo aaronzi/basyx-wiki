@@ -64,7 +64,6 @@ content/introduction/quickstart
 This section contains the user documentation of the Eclipse BaSyx middleware.
 
 ```{toctree}
-:caption: User Documentation
 :maxdepth: 2
 
 content/user_documentation/basyx_components/index
