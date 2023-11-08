@@ -59,7 +59,7 @@ You can find a complete example on how to setup a BaSyx environment with the AAS
 
 ### AAS List Sidebar
 
-````{sidebar}
+````{sidebar} AAS List Sidebar
 ![](./images/ui_sidebar.png)
 ````
 
@@ -71,7 +71,7 @@ In addition, the AAS can be removed from the registry by clicking on the **delet
 
 ### AAS Treeview
 
-````{sidebar}
+````{sidebar} AAS Treeview
 ![](./images/ui_treeview.png)
 ````
 
@@ -81,7 +81,7 @@ If a SubmodelElement is selected you are able to copy its path to the clipboard 
 
 ### Element Details
 
-````{sidebar}
+````{sidebar} Element Details
 ![](./images/element_details.png)
 ````
 
@@ -113,6 +113,10 @@ The implemented SubmodelElements follow the specification for the AAS in Metamod
 - Entity
 - RelationshipElement
 - AnnotatedRelationshipElement
+
+### Visualization Panel
+
+
 
 ## Features
 
