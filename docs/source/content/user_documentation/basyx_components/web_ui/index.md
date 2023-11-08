@@ -109,11 +109,6 @@ The Element Details Page shows the content of the selected SubmodelElement. This
 - value
 - dataSpecificationContent (fetched from the Concept Description Repository)
 
-```{note}
-:class: margin
-The Capability and Event SubmodelElement types are not yet implemented.
-```
-
 The implemented SubmodelElements follow the specification for the AAS in Metamodel Version 3. Currently, the following SubmodelElements have their own visualization:
 
 - SubmodelElementCollection
@@ -130,7 +125,7 @@ The implemented SubmodelElements follow the specification for the AAS in Metamod
 - AnnotatedRelationshipElement
 
 ```{note}
-The Capability and Event SubmodelElement types are not yet implemented.
+The Capability and Event SubmodelElements are not yet implemented in the AAS Web UI.
 ```
 
 ### Visualization Panel
@@ -169,9 +164,5 @@ PDF Preview in the Visualization Panel
 
 ## Features
 
-```{toctree}
-:caption: Features
-:maxdepth: 1
+### [Status Checks and Error Handling](./features/statuscheck)
 
-features/statuscheck
-```
