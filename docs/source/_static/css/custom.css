@@ -4,19 +4,32 @@ table {
     border-spacing: 0;
     border: 1px solid #cccccc;
     border-radius: 3px;
-    /* Rounded corners for the table */
     overflow: hidden;
-    /* Ensures the border-radius is respected */
 }
 
-/* Table header styles */
+/* Table header styles with dividers */
 table th {
-    background-color: #858585;
-    /* Light gray for light mode */
     border-bottom: 1px solid #cccccc;
+    border-right: 1px solid #cccccc;
+    /* Add divider between columns */
+}
+
+/* Remove right border for the last th to maintain rounded corner */
+table th:last-child {
+    border-right: none;
 }
 
 /* Table body styles */
 table td {
     border: 1px solid #cccccc;
+}
+
+/* Remove right border for the last td in each row to maintain rounded corner */
+table tr td:last-child {
+    border-right: none;
+}
+
+/* Add a left border to the first td to complete the rounded corner effect */
+table tr td:first-child {
+    border-left: none;
 }
