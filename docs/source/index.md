@@ -65,6 +65,7 @@ This section contains the user documentation of the Eclipse BaSyx middleware.
 
 ```{toctree}
 :maxdepth: 2
+:caption: User Documentation
 
 content/user_documentation/basyx_components/index
 content/user_documentation/concepts/index

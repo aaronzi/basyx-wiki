@@ -2,7 +2,6 @@
 table {
     border-spacing: 0;
     border: 1px solid var(--pst-color-border);
-    ;
     border-radius: 3px;
     overflow: hidden;
     /* Ensures the border-radius is respected */
