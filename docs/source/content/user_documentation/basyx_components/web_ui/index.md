@@ -24,7 +24,7 @@ The AAS Web UI is now only compatible with the components of BaSyx V2 and the As
 ```
 
 The AAS Web UI can be downloaded from [Docker Hub](https://hub.docker.com/r/eclipsebasyx/aas-gui) as off-the-shelf component.
-Yuo can pull it by executing the following command:
+You can pull it by executing the following command:
 
 ```bash
 docker pull eclipsebasyx/aas-gui
@@ -32,7 +32,7 @@ docker pull eclipsebasyx/aas-gui
 
 ## Quick Start
 
-```{note}
+```{hint}
 :class: margin
 Docker must be installed on your system to run the AAS Web UI.
 
@@ -59,7 +59,35 @@ name: connect_basyx
 
 ## Introductory Example
 
-You can find a complete example on how to setup a BaSyx environment with the AAS Web UI, Registry and AAS Environment in the [Quick Start](../../../introduction/quickstart) section.
+You cant create a complete BaSyx example environment with Docker Compose. This includes the AAS Web UI, the BaSyx Registry and the AAS Environment (AAS Repository, Submodel Repository, Concept Description Repository).
+
+This is a simple example of how to setup the AAS Web UI with Docker Compose:
+
+```yaml
+version: "3.8"
+services:
+    aas-web-gui:
+        image: eclipsebasyx/aas-gui
+        container_name: aas-web-gui
+        ports:
+            - "3000:3000"
+        environment:
+            CHOKIDAR_USEPOLLING: "true"
+            VITE_REGISTRY_PATH: "<registry_path>"
+            VITE_AAS_REPO_PATH: "aas_repo_path"
+            VITE_SUBMODEL_REPO_PATH: "submodel_repo_path"
+            VITE_CD_REPO_PATH: "concept_description_repo_path"
+            VITE_PRIMARY_COLOR: "<primary_color>"
+            VITE_BASE_PATH: "<base_path>"
+        volumes:
+            - <local_path_to_logo>:/app/src/assets/Logo
+            - <local_path_to_plugins>:/app/src/UserPlugins
+```
+
+```{seealso}
+:class: margin
+You can find a complete example on how to setup BaSyx in the [Quick Start](../../../introduction/quickstart) section.
+```
 
 ## Interacting with AAS
 
