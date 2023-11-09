@@ -59,6 +59,11 @@ name: connect_basyx
 
 ## Introductory Example
 
+```{seealso}
+:class: margin
+You can find a complete example on how to setup BaSyx in the [Quick Start](../../../introduction/quickstart) section.
+```
+
 You cant create a complete BaSyx example environment with Docker Compose. This includes the AAS Web UI, the BaSyx Registry and the AAS Environment (AAS Repository, Submodel Repository, Concept Description Repository).
 
 This is a simple example of how to setup the AAS Web UI with Docker Compose:
@@ -82,11 +87,6 @@ services:
         volumes:
             - <local_path_to_logo>:/app/src/assets/Logo
             - <local_path_to_plugins>:/app/src/UserPlugins
-```
-
-```{seealso}
-:class: margin
-You can find a complete example on how to setup BaSyx in the [Quick Start](../../../introduction/quickstart) section.
 ```
 
 ## Interacting with AAS
