@@ -30,6 +30,6 @@ table tr:last-child td {
     border-bottom: none;
 }
 
-table th {
-    background-color: var(--pst-color-surface);
+table thead th {
+    background-color: var(--pst-color-surface) !important;
 }
