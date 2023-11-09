@@ -1,0 +1,10 @@
+/* Add borders to all table cells */
+table th,
+table td {
+    border: 1px solid #cccccc;
+}
+
+/* Add borders to the table itself */
+table {
+    border-collapse: collapse;
+}
