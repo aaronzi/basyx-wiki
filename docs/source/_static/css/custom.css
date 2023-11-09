@@ -1,8 +1,7 @@
 /* Table styles with only outer border and rounded corners */
 table {
-    border-collapse: separate;
     border-spacing: 0;
-    border: 1px solid #cccccc;
+    border: 1px solid var(--pst-color-border);;
     border-radius: 3px;
     overflow: hidden;
     /* Ensures the border-radius is respected */
@@ -13,8 +12,8 @@ table {
 /* Table header and body styles without individual borders */
 table th,
 table td {
-    border-right: 1px solid #cccccc;
-    border-bottom: 1px solid #cccccc;
+    border-right: 1px solid var(--pst-color-border);;
+    border-bottom: 1px solid var(--pst-color-border);;
     padding: 0.5em;
     /* Optional: for padding within cells */
 }
@@ -28,4 +27,8 @@ table td:last-child {
 /* Remove bottom border from the last row in the table body */
 table tr:last-child td {
     border-bottom: none;
+}
+
+thead th {
+    background-color: var(--pst-color-surface);
 }
