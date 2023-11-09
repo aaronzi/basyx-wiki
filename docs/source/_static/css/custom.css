@@ -1,10 +1,32 @@
-/* Add borders to all table cells */
-table th,
+/* Table styles */
+table {
+    border-collapse: separate;
+    border-spacing: 0;
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+    /* Rounded corners for the table */
+    overflow: hidden;
+    /* Ensures the border-radius is respected */
+}
+
+/* Table header styles */
+table th {
+    background-color: #f2f2f2;
+    /* Light gray for light mode */
+    border-bottom: 1px solid #cccccc;
+}
+
+/* Table body styles */
 table td {
     border: 1px solid #cccccc;
 }
 
-/* Add borders to the table itself */
-table {
-    border-collapse: collapse;
+/* Dark mode styles */
+@media (prefers-color-scheme: dark) {
+    table th {
+        background-color: #4a4a4a;
+        /* Darker gray for dark mode */
+    }
+
+    /* Additional dark mode styles for table cells if needed */
 }
