@@ -66,7 +66,7 @@ You can find a complete example on how to setup BaSyx in the [Quick Start](../..
 
 You cant create a complete BaSyx example environment with Docker Compose. This includes the AAS Web UI, the BaSyx Registry and the AAS Environment (AAS Repository, Submodel Repository, Concept Description Repository).
 
-This is a simple example of how to setup the AAS Web UI with Docker Compose:
+This is a simple example of how to setup the AAS Web UI with Docker Compose in a `docker-compose.yml` file:
 
 ```yaml
 version: "3.8"
@@ -79,9 +79,9 @@ services:
         environment:
             CHOKIDAR_USEPOLLING: "true"
             VITE_REGISTRY_PATH: "<registry_path>"
-            VITE_AAS_REPO_PATH: "aas_repo_path"
-            VITE_SUBMODEL_REPO_PATH: "submodel_repo_path"
-            VITE_CD_REPO_PATH: "concept_description_repo_path"
+            VITE_AAS_REPO_PATH: "<aas_repo_path>"
+            VITE_SUBMODEL_REPO_PATH: "<submodel_repo_path>"
+            VITE_CD_REPO_PATH: "<concept_description_repo_path>"
             VITE_PRIMARY_COLOR: "<primary_color>"
             VITE_BASE_PATH: "<base_path>"
         volumes:
