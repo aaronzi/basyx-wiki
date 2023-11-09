@@ -213,8 +213,8 @@ PDF Preview in the Visualization Panel
 ```{toctree}
 :maxdepth: 1
 
-features/statuscheck
 features/docker_config
+features/statuscheck
 ```
 
 ## Compatibility to BaSyx V1
