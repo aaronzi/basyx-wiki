@@ -11,7 +11,7 @@ table {
 
 /* Table header styles */
 table th {
-    background-color: #f2f2f2;
+    background-color: #858585;
     /* Light gray for light mode */
     border-bottom: 1px solid #cccccc;
 }
@@ -19,14 +19,4 @@ table th {
 /* Table body styles */
 table td {
     border: 1px solid #cccccc;
-}
-
-/* Dark mode styles */
-@media (prefers-color-scheme: dark) {
-    table th {
-        background-color: #4a4a4a;
-        /* Darker gray for dark mode */
-    }
-
-    /* Additional dark mode styles for table cells if needed */
 }
