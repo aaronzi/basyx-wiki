@@ -89,6 +89,18 @@ services:
             - <local_path_to_plugins>:/app/src/UserPlugins
 ```
 
+you can start the AAS Web UI with the following command:
+
+```bash
+docker-compose up -d
+```
+
+The AAS Web UI will be available at [http://localhost:3000](http://localhost:3000).
+
+```{seealso}
+The [Docker Configuration](./features/docker_config.md) page provides a detailed description of the configuration options for the AAS Web UI regarding the environment variables and the volumes.
+``` 
+
 ## Interacting with AAS
 
 ```{figure} ./images/ui_sidebar.png
@@ -202,6 +214,7 @@ PDF Preview in the Visualization Panel
 :maxdepth: 1
 
 features/statuscheck
+features/docker_config
 ```
 
 ## Compatibility to BaSyx V1
