@@ -23,27 +23,28 @@ The following environment variables can be used to configure the AAS Web UI:
 | VITE_PRIMARY_COLOR | The primary color of the AAS Web UI. |
 | VITE_BASE_PATH | The base path of the AAS Web UI. |
 | CHOKIDAR_USEPOLLING | Enables polling for file changes (needed when using a plugins folder). |
-|-------------|-------------|
 
 ```{tip}
 Using environment variables works when building the Docker image yourself or when using the image from Docker Hub.
 ```
 
-#### This is how you would use the environment variables when building the Docker image yourself:
+This is how you would use the environment variables when building the Docker image yourself:
 
-First, build the Docker image from the Dockerfile in the [aas-web-gui](https://github.com/eclipse-basyx/basyx-applications/tree/main/aas-gui/Frontend/aas-web-gui) directory of the AAS Web UI repository:
+1. Build the Docker image from the Dockerfile in the [aas-web-gui](https://github.com/eclipse-basyx/basyx-applications/tree/main/aas-gui/Frontend/aas-web-gui) directory of the AAS Web UI repository:
 
 ```bash
 docker build -t aas-web-ui .
 ```
 
-Then, start the Docker container with the following command (replace the environment variables with your own values):
+2. Start the Docker container with the following command (replace the environment variables with your own values):
 
 ```bash
 docker run -p 3000:3000 --name=aas-web-ui -e CHOKIDAR_USEPOLLING=true -e VITE_REGISTRY_PATH="<registry_path>" -e VITE_AAS_REPO_PATH="<aas_repo_path>" -e VITE_SUBMODEL_REPO_PATH="<submodel_repo_path>" -e VITE_CD_REPO_PATH="<concept_description_repo_path>" -e VITE_PRIMARY_COLOR="<primary_color>" -e VITE_BASE_PATH="<base_path>" aas-web-ui
 ```
 
-#### This is how you would configure the environment variables when using the AAS Web UI with Docker Compose and the image from Docker Hub:
+This is how you would configure the environment variables when using the AAS Web UI with Docker Compose and the image from Docker Hub:
+
+1. Create a `docker-compose.yml` file in your project directory and add the following content (replace the environment variables with your own values):
 
 ```yaml
 version: "3.8"
@@ -63,7 +64,7 @@ services:
             VITE_BASE_PATH: "<base_path>"
 ```
 
-Afterwards, start the AAS Web UI with the following command:
+2. Start the AAS Web UI with the following command:
 
 ```bash
 docker-compose up -d
@@ -77,23 +78,24 @@ The following volumes can be used to configure the AAS Web UI:
 |-------------|-------------|
 | /app/src/assets/Logo | The path to the folder containing the company logo in the top left corner and the favicon.ico. |
 | /app/src/UserPlugins | The path to the folder containing the UI plugins. |
-|-------------|-------------|
 
 ```{tip}
 Using volumes works when building the Docker image yourself or when using the image from Docker Hub.
 ```
 
-#### This is how you would use the volumes when building the Docker image yourself:
+This is how you would use the volumes when building the Docker image yourself:
 
-First, build the Docker image from the Dockerfile like described above.
+1. Build the Docker image from the Dockerfile like described above.
 
-Then, start the Docker container with the following command (replace the volumes with your own values):
+2. Start the Docker container with the following command (replace the volumes with your own values):
 
 ```bash
 docker run -p 3000:3000 --name=aas-web-ui -v <local_path_to_logo>:/app/src/assets/Logo -v <local_path_to_plugins>:/app/src/UserPlugins aas-web-ui
 ```
 
-#### This is how you would configure the volumes when using the AAS Web UI with Docker Compose and the image from Docker Hub:
+This is how you would configure the volumes when using the AAS Web UI with Docker Compose and the image from Docker Hub:
+
+1. Create a `docker-compose.yml` file in your project directory and add the following content (replace the volumes with your own values):
 
 ```yaml
 version: "3.8"
@@ -108,7 +110,13 @@ services:
             - <local_path_to_plugins>:/app/src/UserPlugins
 ```
 
+2. Start the AAS Web UI with docker-compose like described above.
+
 ### Example using Docker Compose for a complete BaSyx environment
+
+You can create a complete BaSyx example environment with Docker Compose. This includes the AAS Web UI, the BaSyx Registry and the AAS Environment (AAS Repository, Submodel Repository, Concept Description Repository).
+
+This is a simple example of how to setup the AAS Web UI with Docker Compose in a `docker-compose.yml` file:
 
 ```yaml	
 version: "3.8"
