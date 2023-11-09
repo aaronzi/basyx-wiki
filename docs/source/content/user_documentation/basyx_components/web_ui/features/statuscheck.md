@@ -10,10 +10,6 @@ The UI provides a feature to periodically check the status of the Asset Administ
 
 ## Feature Overview
 
-### Status Checks
-
-If an Asset Administration Shell or a Submodel is not available, the user is informed about the issue through a status indicator in the AAS List on the left side of the application. The indicator can automatically appear/disappear when the periodic status check discovers a change in the status of the Asset Administration Shells or Submodels. The user can also manually trigger the status check by clicking on the refresh button in the AAS List. The periodical check is performed every 60 seconds.
-
 ```{figure} ./images/aas_status.png
 ---
 figclass: margin
@@ -23,9 +19,9 @@ name: aas_status
 AAS Status Indicator
 ```
 
-```{tip}
-You are also able to deactivate the status checks under the **AUTO SYNC** menu in the top right corner of the application.
-```
+### Status Checks
+
+If an Asset Administration Shell or a Submodel is not available, the user is informed about the issue through a status indicator in the AAS List on the left side of the application. The indicator can automatically appear/disappear when the periodic status check discovers a change in the status of the Asset Administration Shells or Submodels. The user can also manually trigger the status check by clicking on the refresh button in the AAS List. The periodical check is performed every 60 seconds.
 
 ```{figure} ./images/disable_statuschecks.png
 ---
@@ -34,6 +30,10 @@ alt: Disable Status Checks
 name: disable_statuschecks
 ---
 Disable Status Checks
+```
+
+```{tip}
+You are also able to deactivate the status checks under the **AUTO SYNC** menu in the top right corner of the application.
 ```
 
 ### Error Notifications
